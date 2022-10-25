@@ -1,33 +1,31 @@
 * {
-    box-sizing: border-box;
-    margin:0px;
-    padding:0px;
-    
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    border: 2px;
-    border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  border: 2px;
+  border-style: solid;
 }
 
 #container {
-    display: grid;
+  display: grid;
 
-
-
-    min-height: 500px;
-    min-width: 500px;
-   
+  min-height: 500px;
+  min-width: 500px;
 }
 
 .boxes {
-    border-style: solid;
-
-
-
+  border-style: solid;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
