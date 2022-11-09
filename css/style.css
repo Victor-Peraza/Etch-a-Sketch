@@ -19,13 +19,48 @@ body {
 
   min-height: 500px;
   min-width: 500px;
+  width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 6px 9px 9px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 6px 9px 9px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 6px 9px 9px rgba(0, 0, 0, 0.3)  ; 
 }
 
 .boxes {
-  border-style: solid;
+
+
+  
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+.tool-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 20px
+
+}
+
+#draw {
+  padding: 15px 50px;
+
+
+}
+#eraser {
+  padding: 15px 50px;
+
+}
+
+#clear {
+  padding: 15px 50px;
+}
+
+#clear:active {
+  background-color: black;
+
 }
