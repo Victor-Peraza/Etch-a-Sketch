@@ -12,7 +12,7 @@ body {
   width: 100%;
   border: 2px;
   border-style: solid;
-  background-color: #fffaf0;
+  background-color: rgb(210, 207, 207);
 }
 
 .container {
@@ -74,7 +74,8 @@ body {
   margin-bottom: 50px;
 }
 
-input {
+
+#colorPicker {
   margin: auto;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -86,7 +87,25 @@ input {
   background-color: transparent;
 }
 
-input::-webkit-color-swatch {
+#colorPicker::-webkit-color-swatch {
   border-radius: 100%;
   border: none;
 }
+.button-active {
+  background-color: black;
+  color: white;
+}
+
+#range-value {
+  margin: auto;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
